@@ -32,14 +32,14 @@
   </build>
    <distributionManagement>
         <repository>
-            <id>deployment</id>
+            <id>nexus</id>
             <name>student snapshots Releases</name>
-            <url>http://175.41.216.133:8081/repository/studentapp-rel/</url>
+            <url>http://52.3.244.26:8081/repository/release/</url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
+            <id>nexus</id>
             <name>student Snapshot </name>
-            <url>http://175.41.216.133:8081/repository/studentapp-snap/</url>
+            <url>http://52.3.244.26:8081/repository/snapshoyt/</url>
         </snapshotRepository>
     </distributionManagement>
   <properties>
