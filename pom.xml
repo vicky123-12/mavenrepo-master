@@ -33,13 +33,13 @@
    <distributionManagement>
         <repository>
             <id>nexus</id>
-            <name>student snapshots Releases</name>
-            <url>http://52.3.244.26:8081/repository/release/</url>
+            <name>student Releases</name>
+            <url>http://3.89.155.214:8081/repository/release/</url>
         </repository>
         <snapshotRepository>
             <id>nexus</id>
             <name>student Snapshot </name>
-            <url>http://52.3.244.26:8081/repository/snapshoyt/</url>
+            <url>http://3.89.155.214:8081/repository/snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
   <properties>
